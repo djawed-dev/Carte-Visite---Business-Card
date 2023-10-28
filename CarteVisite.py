@@ -9,3 +9,8 @@ class Carte_visite:
             print("|" + " " * 65 + "|")
         print("|" + self.email.ljust(65) + "|\n|" + self.telephone.ljust(65) + "|\n|" + self.recherche.ljust(65) + "|")
         print("-" * 67)
+if __name__ == "__main__":
+    Nom, Ecole = "Djawed Ghenim", "Étudiant à l'École de Technologie Supérieure"
+    Competence = "Développeur | Analyste de données"
+    Email, Telephone = "Email : djawed.ghenim.1@ens.etsmtl.ca", "Téléphone : (438) 779-9566"
+    linkedin,Recherche = "djawed-ghenim-661579204","Je suis à la recherche d'une opportunité d'emploi à temps partiel"
